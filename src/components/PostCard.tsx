@@ -7,10 +7,11 @@ interface PostCardProps {
   date: string;
   slug: string;
   category: string;
+  readingTime?: string;
   style?: React.CSSProperties;
 }
 
-export const PostCard = ({ title, excerpt, date, slug, category, style }: PostCardProps) => {
+export const PostCard = ({ title, excerpt, date, slug, category, readingTime, style }: PostCardProps) => {
   return (
     <Link 
       to={`/post/${slug}`}
@@ -24,7 +25,14 @@ export const PostCard = ({ title, excerpt, date, slug, category, style }: PostCa
           <Badge variant="secondary" className="bg-blog-light text-blog-primary">
             {category}
           </Badge>
-          <time className="text-sm text-gray-500">{date}</time>
+          <div className="text-right">
+            <time className="text-sm text-gray-500 block">{date}</time>
+            {readingTime && (
+              <span className="text-sm text-gray-400 block">
+                {readingTime} read
+              </span>
+            )}
+          </div>
         </div>
 
         <h2 className="text-xl font-heading font-semibold text-gray-900 group-hover:text-blog-primary transition-colors mb-3 line-clamp-2">

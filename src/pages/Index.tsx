@@ -2,29 +2,33 @@ import { Header } from "@/components/Header";
 import { PostCard } from "@/components/PostCard";
 import { Badge } from "@/components/ui/badge";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
-// Mock data com categorias
+// Mock data com categorias e tempo de leitura
 const posts = [
   {
     title: "Getting Started with Modern Web Development",
     excerpt: "Learn the essential tools and practices for modern web development. From setting up your development environment to deploying your first application.",
     date: "2024-03-10",
     slug: "getting-started-modern-web-development",
-    category: "Development"
+    category: "Development",
+    readingTime: "10 min"
   },
   {
     title: "The Future of Frontend Development",
     excerpt: "Explore the latest trends and technologies shaping the future of frontend development. From Web Components to AI-assisted coding.",
     date: "2024-03-09",
     slug: "future-frontend-development",
-    category: "Technology"
+    category: "Technology",
+    readingTime: "8 min"
   },
   {
     title: "Mastering TypeScript in 2024",
     excerpt: "A comprehensive guide to TypeScript best practices, advanced features, and how to leverage its type system for better code quality.",
     date: "2024-03-08",
     slug: "mastering-typescript-2024",
-    category: "Development"
+    category: "Development",
+    readingTime: "15 min"
   }
 ];
 
@@ -32,10 +36,19 @@ const categories = ["All", "Development", "Technology", "Design"];
 
 const Index = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
+  const navigate = useNavigate();
 
   const filteredPosts = selectedCategory === "All" 
     ? posts 
     : posts.filter(post => post.category === selectedCategory);
+
+  const handleCategoryClick = (category: string) => {
+    if (category === "All") {
+      setSelectedCategory(category);
+    } else {
+      navigate(`/category/${category}`);
+    }
+  };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blog-light to-white">
@@ -60,7 +73,7 @@ const Index = () => {
                   ? "bg-blog-primary hover:bg-blog-secondary"
                   : "hover:border-blog-primary"
               }`}
-              onClick={() => setSelectedCategory(category)}
+              onClick={() => handleCategoryClick(category)}
             >
               {category}
             </Badge>
@@ -71,11 +84,7 @@ const Index = () => {
           {filteredPosts.map((post, index) => (
             <PostCard
               key={post.slug}
-              title={post.title}
-              excerpt={post.excerpt}
-              date={post.date}
-              slug={post.slug}
-              category={post.category}
+              {...post}
               style={{ animationDelay: `${index * 100}ms` }}
             />
           ))}

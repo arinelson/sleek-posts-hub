@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import Post from "./pages/Post";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Category from "./pages/Category";
 
 const queryClient = new QueryClient();
 
@@ -21,6 +22,7 @@ const App = () => (
           <Route path="/post/:slug" element={<Post />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/category/:category" element={<Category />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
