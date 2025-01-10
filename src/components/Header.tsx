@@ -23,7 +23,14 @@ export const Header = () => {
               to="/about" 
               className="text-gray-600 hover:text-blog-primary transition-colors relative group"
             >
-              About
+              Sobre
+              <span className="absolute bottom-0 left-0 w-full h-0.5 bg-blog-primary transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300" />
+            </Link>
+            <Link 
+              to="/contact" 
+              className="text-gray-600 hover:text-blog-primary transition-colors relative group"
+            >
+              Contato
               <span className="absolute bottom-0 left-0 w-full h-0.5 bg-blog-primary transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300" />
             </Link>
           </nav>
