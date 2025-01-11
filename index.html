@@ -7,7 +7,10 @@
     <meta name="description" content="Explore o futuro da tecnologia e desenvolvimento através de artigos cuidadosamente selecionados sobre programação, desenvolvimento web, e tendências tecnológicas." />
     <meta name="author" content="ModernBlog" />
     <meta name="robots" content="index, follow" />
-    <meta name="keywords" content="desenvolvimento web, tecnologia, programação, react, typescript, frontend" />
+    <meta name="keywords" content="desenvolvimento web, tecnologia, programação, react, typescript, frontend, computação quântica, cibersegurança" />
+    
+    <!-- Google Search Console Verification -->
+    <meta name="google-site-verification" content="SEU_CÓDIGO_DE_VERIFICAÇÃO" />
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
@@ -26,19 +29,46 @@
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="canonical" href="https://seu-dominio.com/" />
+    
+    <!-- Sitemap -->
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
 
-    <!-- Espaço reservado para Google Analytics (será adicionado posteriormente) -->
-    <!-- Google Analytics tag (gtag.js) -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR-ID"></script> -->
-    <!-- <script>
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'YOUR-ID');
-    </script> -->
+      gtag('config', 'G-XXXXXXXXXX', {
+        page_path: window.location.pathname,
+      });
+    </script>
 
-    <!-- Espaço reservado para Google AdSense (será adicionado posteriormente) -->
-    <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=YOUR-CLIENT-ID" crossorigin="anonymous"></script> -->
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+
+    <!-- Preconnect para melhorar performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- Schema.org markup para Rich Snippets -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "ModernBlog",
+        "url": "https://seu-dominio.com",
+        "description": "Blog de Tecnologia e Desenvolvimento",
+        "publisher": {
+          "@type": "Organization",
+          "name": "ModernBlog",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://seu-dominio.com/logo.png"
+          }
+        }
+      }
+    </script>
   </head>
 
   <body>
