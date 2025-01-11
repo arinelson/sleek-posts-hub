@@ -36,6 +36,16 @@ const posts = [
     slug: "mastering-typescript-2024",
     category: "Development",
     readingTime: "15 min"
+  },
+  {
+    title: "The Impact of Quantum Computing on Cybersecurity",
+    titlePt: "O Impacto da Computação Quântica na Cibersegurança",
+    excerpt: "Discover how quantum computing is revolutionizing cybersecurity and what it means for the future of data protection.",
+    excerptPt: "Descubra como a computação quântica está revolucionando a cibersegurança e o que isso significa para o futuro da proteção de dados.",
+    date: "2024-03-13",
+    slug: "quantum-computing-cybersecurity",
+    category: "Technology",
+    readingTime: "12 min"
   }
 ];
 
