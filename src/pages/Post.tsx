@@ -54,7 +54,6 @@ const Post = () => {
           Por fim, veremos estratégias de implantação e como disponibilizar seu aplicativo para os usuários. Plataformas de hospedagem modernas tornam mais fácil do que nunca implantar e escalar aplicações web.
         `
       }
-    }
     },
     "quantum-computing-cybersecurity": {
       en: {
