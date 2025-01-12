@@ -5,51 +5,51 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
-// Mock data com categorias e tempo de leitura
+// Mock data com as novas categorias
 const posts = [
   {
-    title: "Getting Started with Modern Web Development",
-    titlePt: "Começando com Desenvolvimento Web Moderno",
-    excerpt: "Learn the essential tools and practices for modern web development. From setting up your development environment to deploying your first application.",
-    excerptPt: "Aprenda as ferramentas e práticas essenciais para o desenvolvimento web moderno. Desde a configuração do ambiente até a implantação do seu primeiro aplicativo.",
-    date: "2024-03-10",
-    slug: "getting-started-modern-web-development",
-    category: "Development",
+    title: "Como a Fé e a Ciência Podem Ajudar Você a Dormir Melhor",
+    titlePt: "Como a Fé e a Ciência Podem Ajudar Você a Dormir Melhor",
+    excerpt: "Discover how faith and science work together to improve your sleep quality and overall well-being.",
+    excerptPt: "Descubra como a fé e a ciência trabalham juntas para melhorar sua qualidade de sono e bem-estar geral.",
+    date: "2024-03-13",
+    slug: "faith-science-better-sleep",
+    category: "Oração",
     readingTime: "10 min"
   },
   {
-    title: "The Future of Frontend Development",
-    titlePt: "O Futuro do Desenvolvimento Frontend",
-    excerpt: "Explore the latest trends and technologies shaping the future of frontend development. From Web Components to AI-assisted coding.",
-    excerptPt: "Explore as últimas tendências e tecnologias que moldam o futuro do desenvolvimento frontend. De Web Components à codificação assistida por IA.",
-    date: "2024-03-09",
-    slug: "future-frontend-development",
-    category: "Technology",
+    title: "The Hidden Meaning Behind Jesus' Parables",
+    titlePt: "O Significado Oculto das Parábolas de Jesus",
+    excerpt: "A deep dive into the profound teachings hidden within Jesus' most famous parables.",
+    excerptPt: "Um mergulho profundo nos ensinamentos profundos escondidos nas parábolas mais famosas de Jesus.",
+    date: "2024-03-12",
+    slug: "hidden-meaning-parables",
+    category: "Ensinamentos de Jesus",
+    readingTime: "12 min"
+  },
+  {
+    title: "10 Fascinating Facts About King David",
+    titlePt: "10 Fatos Fascinantes Sobre o Rei Davi",
+    excerpt: "Explore interesting and lesser-known facts about one of the Bible's most important figures.",
+    excerptPt: "Explore fatos interessantes e pouco conhecidos sobre uma das figuras mais importantes da Bíblia.",
+    date: "2024-03-11",
+    slug: "facts-about-king-david",
+    category: "Curiosidades Bíblicas",
     readingTime: "8 min"
   },
   {
-    title: "Mastering TypeScript in 2024",
-    titlePt: "Dominando TypeScript em 2024",
-    excerpt: "A comprehensive guide to TypeScript best practices, advanced features, and how to leverage its type system for better code quality.",
-    excerptPt: "Um guia completo sobre as melhores práticas do TypeScript, recursos avançados e como aproveitar seu sistema de tipos para melhor qualidade de código.",
-    date: "2024-03-08",
-    slug: "mastering-typescript-2024",
-    category: "Development",
+    title: "Test Your Bible Knowledge",
+    titlePt: "Teste Seu Conhecimento Bíblico",
+    excerpt: "Challenge yourself with this interactive quiz about biblical stories and teachings.",
+    excerptPt: "Desafie-se com este quiz interativo sobre histórias e ensinamentos bíblicos.",
+    date: "2024-03-10",
+    slug: "bible-knowledge-quiz",
+    category: "Quiz",
     readingTime: "15 min"
-  },
-  {
-    title: "The Impact of Quantum Computing on Cybersecurity",
-    titlePt: "O Impacto da Computação Quântica na Cibersegurança",
-    excerpt: "Discover how quantum computing is revolutionizing cybersecurity and what it means for the future of data protection.",
-    excerptPt: "Descubra como a computação quântica está revolucionando a cibersegurança e o que isso significa para o futuro da proteção de dados.",
-    date: "2024-03-13",
-    slug: "quantum-computing-cybersecurity",
-    category: "Technology",
-    readingTime: "12 min"
   }
 ];
 
-const categories = ["All", "Development", "Technology", "Design"];
+const categories = ["All", "Curiosidades Bíblicas", "Oração", "Ensinamentos de Jesus", "Quiz"];
 
 const Index = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");

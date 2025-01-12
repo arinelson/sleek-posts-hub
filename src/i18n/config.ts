@@ -17,9 +17,10 @@ const resources = {
       
       // Categories
       allCategories: "All",
-      development: "Development",
-      technology: "Technology",
-      design: "Design",
+      "curiosidades-biblicas": "Biblical Curiosities",
+      "oracao": "Prayer",
+      "ensinamentos-de-jesus": "Teachings of Jesus",
+      "quiz": "Quiz",
       
       // About page
       aboutUs: "About Us",
@@ -55,9 +56,10 @@ const resources = {
       
       // Categories
       allCategories: "Todos",
-      development: "Desenvolvimento",
-      technology: "Tecnologia",
-      design: "Design",
+      "curiosidades-biblicas": "Curiosidades Bíblicas",
+      "oracao": "Oração",
+      "ensinamentos-de-jesus": "Ensinamentos de Jesus",
+      "quiz": "Quiz",
       
       // About page
       aboutUs: "Sobre Nós",
@@ -93,9 +95,10 @@ const resources = {
       
       // Categories
       allCategories: "Todos",
-      development: "Desarrollo",
-      technology: "Tecnología",
-      design: "Diseño",
+      "curiosidades-biblicas": "Curiosidades Bíblicas",
+      "oracao": "Oración",
+      "ensinamentos-de-jesus": "Enseñanzas de Jesús",
+      "quiz": "Quiz",
       
       // About page
       aboutUs: "Sobre Nosotros",
@@ -131,9 +134,10 @@ const resources = {
       
       // Categories
       allCategories: "Tutti",
-      development: "Sviluppo",
-      technology: "Tecnologia",
-      design: "Design",
+      "curiosidades-biblicas": "Curiosità Bibliche",
+      "oracao": "Preghiera",
+      "ensinamentos-de-jesus": "Insegnamenti di Gesù",
+      "quiz": "Quiz",
       
       // About page
       aboutUs: "Chi Siamo",

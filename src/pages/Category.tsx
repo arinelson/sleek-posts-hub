@@ -5,58 +5,76 @@ import { useParams, useNavigate } from "react-router-dom";
 
 // Mock data - em uma versão futura, isso viria de uma API
 const postsByCategory = {
-  Development: [
+  "Curiosidades Bíblicas": [
     {
-      title: "Understanding TypeScript Generics",
-      excerpt: "A deep dive into TypeScript generics and how they can make your code more reusable and type-safe.",
-      date: "2024-03-12",
-      slug: "understanding-typescript-generics",
-      category: "Development",
+      title: "10 Fascinating Facts About King David",
+      excerpt: "Explore interesting and lesser-known facts about one of the Bible's most important figures.",
+      date: "2024-03-11",
+      slug: "facts-about-king-david",
+      category: "Curiosidades Bíblicas",
       readingTime: "8 min"
     },
     {
-      title: "Clean Code Principles in React",
-      excerpt: "Learn how to write maintainable and clean React code following industry best practices and patterns.",
-      date: "2024-03-11",
-      slug: "clean-code-principles-react",
-      category: "Development",
+      title: "The Lost Books of the Bible",
+      excerpt: "Understanding the history behind the books that didn't make it into the biblical canon.",
+      date: "2024-03-10",
+      slug: "lost-books-bible",
+      category: "Curiosidades Bíblicas",
       readingTime: "12 min"
     }
   ],
-  Technology: [
+  "Oração": [
     {
-      title: "The Rise of AI in Software Development",
-      excerpt: "Exploring how artificial intelligence is transforming the software development landscape.",
-      date: "2024-03-10",
-      slug: "ai-in-software-development",
-      category: "Technology",
+      title: "Como a Fé e a Ciência Podem Ajudar Você a Dormir Melhor",
+      excerpt: "Descubra como a fé e a ciência trabalham juntas para melhorar sua qualidade de sono e bem-estar geral.",
+      date: "2024-03-13",
+      slug: "faith-science-better-sleep",
+      category: "Oração",
       readingTime: "10 min"
     },
     {
-      title: "Web3 and the Future of the Internet",
-      excerpt: "Understanding Web3 technologies and their potential impact on the future of web development.",
+      title: "The Power of Morning Prayer",
+      excerpt: "Learn how starting your day with prayer can transform your life.",
       date: "2024-03-09",
-      slug: "web3-future-internet",
-      category: "Technology",
+      slug: "power-morning-prayer",
+      category: "Oração",
+      readingTime: "7 min"
+    }
+  ],
+  "Ensinamentos de Jesus": [
+    {
+      title: "The Hidden Meaning Behind Jesus' Parables",
+      excerpt: "A deep dive into the profound teachings hidden within Jesus' most famous parables.",
+      date: "2024-03-12",
+      slug: "hidden-meaning-parables",
+      category: "Ensinamentos de Jesus",
+      readingTime: "12 min"
+    },
+    {
+      title: "Jesus' Teaching on Love",
+      excerpt: "Understanding the revolutionary concept of love in Jesus' teachings.",
+      date: "2024-03-08",
+      slug: "jesus-teaching-love",
+      category: "Ensinamentos de Jesus",
       readingTime: "15 min"
     }
   ],
-  Design: [
+  "Quiz": [
     {
-      title: "Mastering UI/UX Design Principles",
-      excerpt: "Essential principles for creating user-friendly and aesthetically pleasing interfaces.",
-      date: "2024-03-08",
-      slug: "mastering-ui-ux-principles",
-      category: "Design",
-      readingTime: "9 min"
+      title: "Test Your Bible Knowledge",
+      excerpt: "Challenge yourself with this interactive quiz about biblical stories and teachings.",
+      date: "2024-03-10",
+      slug: "bible-knowledge-quiz",
+      category: "Quiz",
+      readingTime: "15 min"
     },
     {
-      title: "Color Theory in Modern Web Design",
-      excerpt: "Understanding how to use color effectively in your web design projects.",
+      title: "New Testament Quiz Challenge",
+      excerpt: "Test your knowledge of the New Testament with this engaging quiz.",
       date: "2024-03-07",
-      slug: "color-theory-web-design",
-      category: "Design",
-      readingTime: "7 min"
+      slug: "new-testament-quiz",
+      category: "Quiz",
+      readingTime: "10 min"
     }
   ]
 };
