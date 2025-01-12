@@ -13,7 +13,7 @@ export const Header = () => {
             to="/" 
             className="text-2xl font-heading font-bold bg-clip-text text-transparent bg-gradient-to-r from-blog-primary to-blog-secondary hover:opacity-80 transition-opacity"
           >
-            ModernBlog
+            Luz Crua
           </Link>
           <nav className="flex items-center space-x-8">
             <Link 

@@ -10,8 +10,8 @@ const resources = {
       contact: "Contact",
       
       // Index page
-      blogTitle: "ModernBlog",
-      blogSubtitle: "Explore the future of technology and development through our curated articles",
+      blogTitle: "Raw Light",
+      blogSubtitle: "Don't lose the light within you. Raw Light is a space dedicated to deep and authentic exploration of spirituality with prayers and curious facts.",
       readMore: "Read more",
       readingTime: "{{time}} read",
       
@@ -24,8 +24,8 @@ const resources = {
       
       // About page
       aboutUs: "About Us",
-      aboutDescription: "ModernBlog is a platform dedicated to sharing knowledge and insights about technology, development, and innovation. Our mission is to make technical knowledge accessible and engaging for everyone.",
-      aboutTeam: "With a team of technology enthusiasts, we seek to bring relevant and up-to-date content about the latest trends and best practices in the development world.",
+      aboutDescription: "Raw Light is a platform dedicated to sharing knowledge and insights about spirituality, prayers, and curiosities. Our mission is to make spiritual knowledge accessible and engaging for everyone.",
+      aboutTeam: "With a team of spirituality enthusiasts, we seek to bring relevant and up-to-date content about the latest trends and best practices in the spiritual world.",
       joinUs: "Join us on this journey of learning and discovery!",
       
       // Contact page
@@ -49,8 +49,8 @@ const resources = {
       contact: "Contato",
       
       // Index page
-      blogTitle: "ModernBlog",
-      blogSubtitle: "Explore o futuro da tecnologia e desenvolvimento através de nossos artigos selecionados",
+      blogTitle: "Luz Crua",
+      blogSubtitle: "Não perca o brilho que há dentro de você. Luz Crua é um espaço dedicado à exploração profunda e autêntica da espiritualidade com orações e fatos curiosos.",
       readMore: "Leia mais",
       readingTime: "{{time}} de leitura",
       
@@ -63,8 +63,8 @@ const resources = {
       
       // About page
       aboutUs: "Sobre Nós",
-      aboutDescription: "ModernBlog é uma plataforma dedicada a compartilhar conhecimento e insights sobre tecnologia, desenvolvimento e inovação. Nossa missão é tornar o conhecimento técnico acessível e envolvente para todos.",
-      aboutTeam: "Com um time de especialistas apaixonados por tecnologia, buscamos trazer conteúdo relevante e atualizado sobre as últimas tendências e melhores práticas no mundo do desenvolvimento.",
+      aboutDescription: "Luz Crua é uma plataforma dedicada a compartilhar conhecimento e insights sobre espiritualidade, orações e curiosidades. Nossa missão é tornar o conhecimento espiritual acessível e envolvente para todos.",
+      aboutTeam: "Com um time de especialistas apaixonados por espiritualidade, buscamos trazer conteúdo relevante e atualizado sobre as últimas tendências e melhores práticas no mundo espiritual.",
       joinUs: "Junte-se a nós nessa jornada de aprendizado e descoberta!",
       
       // Contact page
@@ -88,8 +88,8 @@ const resources = {
       contact: "Contacto",
       
       // Index page
-      blogTitle: "ModernBlog",
-      blogSubtitle: "Explora el futuro de la tecnología y el desarrollo a través de nuestros artículos seleccionados",
+      blogTitle: "Luz Cruda",
+      blogSubtitle: "No pierdas la luz que hay dentro de ti. Luz Cruda es un espacio dedicado a la exploración profunda y auténtica de la espiritualidad con oraciones y hechos curiosos.",
       readMore: "Leer más",
       readingTime: "{{time}} de lectura",
       
@@ -102,8 +102,8 @@ const resources = {
       
       // About page
       aboutUs: "Sobre Nosotros",
-      aboutDescription: "ModernBlog es una plataforma dedicada a compartir conocimientos y perspectivas sobre tecnología, desarrollo e innovación. Nuestra misión es hacer que el conocimiento técnico sea accesible y atractivo para todos.",
-      aboutTeam: "Con un equipo de entusiastas de la tecnología, buscamos traer contenido relevante y actualizado sobre las últimas tendencias y mejores prácticas en el mundo del desarrollo.",
+      aboutDescription: "Luz Cruda es una plataforma dedicada a compartir conocimientos y perspectivas sobre espiritualidad, oraciones y curiosidades. Nuestra misión es hacer que el conocimiento espiritual sea accesible y atractivo para todos.",
+      aboutTeam: "Con un equipo de entusiastas de la espiritualidad, buscamos traer contenido relevante y actualizado sobre las últimas tendencias y mejores prácticas en el mundo espiritual.",
       joinUs: "¡Únete a nosotros en este viaje de aprendizaje y descubrimiento!",
       
       // Contact page
@@ -127,8 +127,8 @@ const resources = {
       contact: "Contatti",
       
       // Index page
-      blogTitle: "ModernBlog",
-      blogSubtitle: "Esplora il futuro della tecnologia e dello sviluppo attraverso i nostri articoli selezionati",
+      blogTitle: "Luce Cruda",
+      blogSubtitle: "Non perdere la luce che è dentro di te. Luce Cruda è uno spazio dedicato all'esplorazione profonda e autentica della spiritualità con preghiere e fatti curiosi.",
       readMore: "Leggi di più",
       readingTime: "{{time}} di lettura",
       
@@ -141,8 +141,8 @@ const resources = {
       
       // About page
       aboutUs: "Chi Siamo",
-      aboutDescription: "ModernBlog è una piattaforma dedicata alla condivisione di conoscenze e approfondimenti su tecnologia, sviluppo e innovazione. La nostra missione è rendere la conoscenza tecnica accessibile e coinvolgente per tutti.",
-      aboutTeam: "Con un team di appassionati di tecnologia, cerchiamo di portare contenuti rilevanti e aggiornati sulle ultime tendenze e le migliori pratiche nel mondo dello sviluppo.",
+      aboutDescription: "Luce Cruda è una piattaforma dedicata alla condivisione di conoscenze e approfondimenti su spiritualità, preghiere e curiosità. La nostra missione è rendere la conoscenza spirituale accessibile e coinvolgente per tutti.",
+      aboutTeam: "Con un team di appassionati di spiritualità, cerchiamo di portare contenuti rilevanti e aggiornati sulle ultime tendenze e le migliori pratiche nel mondo spirituale.",
       joinUs: "Unisciti a noi in questo viaggio di apprendimento e scoperta!",
       
       // Contact page
@@ -166,8 +166,8 @@ const resources = {
       contact: "Contact",
       
       // Index page
-      blogTitle: "ModernBlog",
-      blogSubtitle: "Explorez l'avenir de la technologie et du développement à travers nos articles sélectionnés",
+      blogTitle: "Lumière Crue",
+      blogSubtitle: "Ne perdez pas la lumière qui est en vous. Lumière Crue est un espace dédié à l'exploration profonde et authentique de la spiritualité avec des prières et des faits curieux.",
       readMore: "Lire la suite",
       readingTime: "{{time}} de lecture",
       
@@ -180,8 +180,8 @@ const resources = {
       
       // About page
       aboutUs: "À Propos de Nous",
-      aboutDescription: "ModernBlog est une plateforme dédiée au partage de connaissances et d'insights sur la technologie, le développement et l'innovation. Notre mission est de rendre les connaissances techniques accessibles et engageantes pour tous.",
-      aboutTeam: "Avec une équipe passionnée par la technologie, nous cherchons à apporter un contenu pertinent et actualisé sur les dernières tendances et les meilleures pratiques dans le monde du développement.",
+      aboutDescription: "Lumière Crue est une plateforme dédiée au partage de connaissances et d'insights sur la spiritualité, les prières et les faits curieux. Notre mission est de rendre les connaissances spirituelles accessibles et engageantes pour tous.",
+      aboutTeam: "Avec une équipe passionnée par la spiritualité, nous cherchons à apporter un contenu pertinent et actualisé sur les dernières tendances et les meilleures pratiques dans le monde spirituel.",
       joinUs: "Rejoignez-nous dans ce voyage d'apprentissage et de découverte !",
       
       // Contact page
