@@ -4,8 +4,8 @@ import { Badge } from "@/components/ui/badge";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { NewsletterDialog } from "@/components/NewsletterDialog";
 
-// Mock data com as novas categorias
 const posts = [
   {
     title: "Como a Fé e a Ciência Podem Ajudar Você a Dormir Melhor",
@@ -71,6 +71,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blog-light to-white">
       <Header />
+      <NewsletterDialog />
       <main className="container mx-auto px-4 py-12">
         <div className="text-center mb-16 animate-fade-up">
           <h1 className="text-5xl md:text-6xl font-heading font-bold text-blog-dark mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blog-primary to-blog-secondary">
