@@ -157,6 +157,45 @@ const resources = {
       // Common
       back: "Indietro",
     }
+  },
+  fr: {
+    translation: {
+      // Header
+      home: "Accueil",
+      about: "À propos",
+      contact: "Contact",
+      
+      // Index page
+      blogTitle: "ModernBlog",
+      blogSubtitle: "Explorez l'avenir de la technologie et du développement à travers nos articles sélectionnés",
+      readMore: "Lire la suite",
+      readingTime: "{{time}} de lecture",
+      
+      // Categories
+      allCategories: "Tous",
+      "curiosidades-biblicas": "Curiosités Bibliques",
+      "oracao": "Prière",
+      "ensinamentos-de-jesus": "Enseignements de Jésus",
+      "quiz": "Quiz",
+      
+      // About page
+      aboutUs: "À Propos de Nous",
+      aboutDescription: "ModernBlog est une plateforme dédiée au partage de connaissances et d'insights sur la technologie, le développement et l'innovation. Notre mission est de rendre les connaissances techniques accessibles et engageantes pour tous.",
+      aboutTeam: "Avec une équipe passionnée par la technologie, nous cherchons à apporter un contenu pertinent et actualisé sur les dernières tendances et les meilleures pratiques dans le monde du développement.",
+      joinUs: "Rejoignez-nous dans ce voyage d'apprentissage et de découverte !",
+      
+      // Contact page
+      contactUs: "Contactez-nous",
+      name: "Nom",
+      email: "Email",
+      message: "Message",
+      sendMessage: "Envoyer le Message",
+      messageSent: "Message envoyé !",
+      messageSuccess: "Merci pour votre contact. Nous vous répondrons bientôt.",
+      
+      // Common
+      back: "Retour",
+    }
   }
 };
 

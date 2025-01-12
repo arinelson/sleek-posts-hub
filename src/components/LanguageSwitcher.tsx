@@ -15,6 +15,7 @@ export const LanguageSwitcher = () => {
     pt: { flag: '🇧🇷', label: 'PT' },
     es: { flag: '🇪🇸', label: 'ES' },
     it: { flag: '🇮🇹', label: 'IT' },
+    fr: { flag: '🇫🇷', label: 'FR' },
   };
 
   const changeLanguage = (lang: string) => {
